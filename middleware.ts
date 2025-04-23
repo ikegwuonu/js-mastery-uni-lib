@@ -16,5 +16,5 @@ export async function middleware(request: NextRequest) {
 
 // (optional) Define which routes this applies to
 export const config = {
-  matcher: ["/admin,/books*", "/myprofile/:path*"], // example protected routes
+  matcher: ["/admin", "/books*", "/myprofile/:path*"], // example protected routes
 };
